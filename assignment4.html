@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Assignment4
+        Student: Xiaojing Li
+        Student ID: 301144319
+        Section: 006
+        Date: 14/Mar/2021 
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment4</title>
+    <link rel="stylesheet" href="assignment4.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header_title">
+            <header><h1>Assignment 4</h1></header>
+        </div>
+        <div class="content">
+            <div class="mainArea">
+                <form id="form">
+                    <h2>Member Registration</h2>
+                    <h3>Please complete all the fields below:</h3>
+                    <label>First Name</label>
+                    <input id="firstName" name="firstName" type="text" placeholder="e.g. Alice" autocomplete="off"/><br>
+                    <p id="firstNameError" class="errorMsg"></p>
+                    <label>Last Name</label>
+                    <input id="lastName" name="lastName" type="text" placeholder="e.g. Lee" autocomplete="off"/><br>
+                    <p class="errorMsg"></p>
+                    <label>Address</label>
+                    <input id="address" name="address" type="text" placeholder="e.g. 16 Main Avenue" autocomplete="off"/><br>
+                    <p class="errorMsg"></p>
+                    <label>City</label>
+                    <input id="city" name="city" type="text" placeholder="e.g. Scarborough"  autocomplete="off"/><br>
+                    <p class="errorMsg"></p>
+                    <label>Postal Code</label>
+                    <input id="postalCode" name="postalCode" type="text" placeholder="e.g. L1A2S3" autocomplete="off"/><br>
+                    <p id="postalCodeError" class="errorMsg"></p>
+                    <label>Province</label>
+                    <input id="province" name="province" type="text" placeholder="e.g. ON" autocomplete="off"/><br>
+                    <p id="provinceError" class="errorMsg"></p>
+                    <label>Age</label>
+                    <input id="age" name="age" type="number" placeholder="e.g. 18" autocomplete="off"/><br>
+                    <p id="ageError" class="errorMsg"></p>
+                    <label>Password</label>
+                    <input id="password" name="password" type="text" autocomplete="off"/><br>
+                    <p class="errorMsg"></p>
+                    <label>Confirm</label>
+                    <input id="passwordConfirm" name="passwordConfirm" type="text"  autocomplete="off"/><br>
+                    <p id="passwordError" class="errorMsg"></p>
+                    <label>Email</label>
+                    <input id="emailbox" name="emailbox" type="text" placeholder="e.g. alicelee2020@gmail.com" autocomplete="off"/><br>
+                    <p id="emailError" class="errorMsg"></p>
+                    
+                    <div id="buttonContainer">
+                        <input id="submit" type="button" value="Register Now" class="downButtons" />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="clearForm" type = "reset" value = "Clear Form" class="downButtons" /><br><br>
+                    </div>
+                    <p id="allFieldsError" class="errorMsg"></p>
+                    <p><br>&copy;Copyright&nbsp;- Xiaojing Li - 301144319 - COMP125 - Sec006</p>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <h5><i>&copy;Copyright&nbsp;- Xiaojing Li - Student ID: 301144319 - COMP125 - Winter 2021 - Assignment4</i></h5>
+    </footer>
+
+    <script src="assignment4.js"></script>
+    
+</body>
+</html>
